@@ -1,0 +1,586 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		3DF918B92EB6D6790054D94A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3DF918A02EB6D6780054D94A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3DF918A72EB6D6780054D94A;
+			remoteInfo = "Optimizely-Demo-App";
+		};
+		3DF918C32EB6D6790054D94A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3DF918A02EB6D6780054D94A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3DF918A72EB6D6780054D94A;
+			remoteInfo = "Optimizely-Demo-App";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3DF918A82EB6D6780054D94A /* Optimizely-Demo-App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Optimizely-Demo-App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3DF918B82EB6D6790054D94A /* Optimizely-Demo-AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Optimizely-Demo-AppTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3DF918C22EB6D6790054D94A /* Optimizely-Demo-AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Optimizely-Demo-AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		3DF918AA2EB6D6780054D94A /* Optimizely-Demo-App */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "Optimizely-Demo-App";
+			sourceTree = "<group>";
+		};
+		3DF918BB2EB6D6790054D94A /* Optimizely-Demo-AppTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "Optimizely-Demo-AppTests";
+			sourceTree = "<group>";
+		};
+		3DF918C52EB6D6790054D94A /* Optimizely-Demo-AppUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "Optimizely-Demo-AppUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3DF918A52EB6D6780054D94A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3DF918B52EB6D6790054D94A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3DF918BF2EB6D6790054D94A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3DF9189F2EB6D6780054D94A = {
+			isa = PBXGroup;
+			children = (
+				3DF918AA2EB6D6780054D94A /* Optimizely-Demo-App */,
+				3DF918BB2EB6D6790054D94A /* Optimizely-Demo-AppTests */,
+				3DF918C52EB6D6790054D94A /* Optimizely-Demo-AppUITests */,
+				3DF918A92EB6D6780054D94A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3DF918A92EB6D6780054D94A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3DF918A82EB6D6780054D94A /* Optimizely-Demo-App.app */,
+				3DF918B82EB6D6790054D94A /* Optimizely-Demo-AppTests.xctest */,
+				3DF918C22EB6D6790054D94A /* Optimizely-Demo-AppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3DF918A72EB6D6780054D94A /* Optimizely-Demo-App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3DF918CC2EB6D6790054D94A /* Build configuration list for PBXNativeTarget "Optimizely-Demo-App" */;
+			buildPhases = (
+				3DF918A42EB6D6780054D94A /* Sources */,
+				3DF918A52EB6D6780054D94A /* Frameworks */,
+				3DF918A62EB6D6780054D94A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				3DF918AA2EB6D6780054D94A /* Optimizely-Demo-App */,
+			);
+			name = "Optimizely-Demo-App";
+			packageProductDependencies = (
+				3DF918D52EB6D6790054D94A /* Optimizely */,
+			);
+			productName = "Optimizely-Demo-App";
+			productReference = 3DF918A82EB6D6780054D94A /* Optimizely-Demo-App.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3DF918B72EB6D6790054D94A /* Optimizely-Demo-AppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3DF918CF2EB6D6790054D94A /* Build configuration list for PBXNativeTarget "Optimizely-Demo-AppTests" */;
+			buildPhases = (
+				3DF918B42EB6D6790054D94A /* Sources */,
+				3DF918B52EB6D6790054D94A /* Frameworks */,
+				3DF918B62EB6D6790054D94A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3DF918BA2EB6D6790054D94A /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				3DF918BB2EB6D6790054D94A /* Optimizely-Demo-AppTests */,
+			);
+			name = "Optimizely-Demo-AppTests";
+			packageProductDependencies = (
+			);
+			productName = "Optimizely-Demo-AppTests";
+			productReference = 3DF918B82EB6D6790054D94A /* Optimizely-Demo-AppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3DF918C12EB6D6790054D94A /* Optimizely-Demo-AppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3DF918D22EB6D6790054D94A /* Build configuration list for PBXNativeTarget "Optimizely-Demo-AppUITests" */;
+			buildPhases = (
+				3DF918BE2EB6D6790054D94A /* Sources */,
+				3DF918BF2EB6D6790054D94A /* Frameworks */,
+				3DF918C02EB6D6790054D94A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3DF918C42EB6D6790054D94A /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				3DF918C52EB6D6790054D94A /* Optimizely-Demo-AppUITests */,
+			);
+			name = "Optimizely-Demo-AppUITests";
+			packageProductDependencies = (
+			);
+			productName = "Optimizely-Demo-AppUITests";
+			productReference = 3DF918C22EB6D6790054D94A /* Optimizely-Demo-AppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3DF918A02EB6D6780054D94A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1610;
+				LastUpgradeCheck = 1610;
+				TargetAttributes = {
+					3DF918A72EB6D6780054D94A = {
+						CreatedOnToolsVersion = 16.1;
+					};
+					3DF918B72EB6D6790054D94A = {
+						CreatedOnToolsVersion = 16.1;
+						TestTargetID = 3DF918A72EB6D6780054D94A;
+					};
+					3DF918C12EB6D6790054D94A = {
+						CreatedOnToolsVersion = 16.1;
+						TestTargetID = 3DF918A72EB6D6780054D94A;
+					};
+				};
+			};
+			buildConfigurationList = 3DF918A32EB6D6780054D94A /* Build configuration list for PBXProject "Optimizely-Demo-App" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3DF9189F2EB6D6780054D94A;
+			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				3DF918D62EB6D6790054D94A /* XCRemoteSwiftPackageReference "swift-sdk" */,
+			);
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 3DF918A92EB6D6780054D94A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3DF918A72EB6D6780054D94A /* Optimizely-Demo-App */,
+				3DF918B72EB6D6790054D94A /* Optimizely-Demo-AppTests */,
+				3DF918C12EB6D6790054D94A /* Optimizely-Demo-AppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3DF918A62EB6D6780054D94A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3DF918B62EB6D6790054D94A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3DF918C02EB6D6790054D94A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3DF918A42EB6D6780054D94A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3DF918B42EB6D6790054D94A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3DF918BE2EB6D6790054D94A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3DF918BA2EB6D6790054D94A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3DF918A72EB6D6780054D94A /* Optimizely-Demo-App */;
+			targetProxy = 3DF918B92EB6D6790054D94A /* PBXContainerItemProxy */;
+		};
+		3DF918C42EB6D6790054D94A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3DF918A72EB6D6780054D94A /* Optimizely-Demo-App */;
+			targetProxy = 3DF918C32EB6D6790054D94A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		3DF918CA2EB6D6790054D94A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3DF918CB2EB6D6790054D94A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3DF918CD2EB6D6790054D94A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Optimizely-Demo-App/Preview Content\"";
+				DEVELOPMENT_TEAM = PYH44NBFKK;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Christopher-Wright.Optimizely-Demo-App";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3DF918CE2EB6D6790054D94A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Optimizely-Demo-App/Preview Content\"";
+				DEVELOPMENT_TEAM = PYH44NBFKK;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Christopher-Wright.Optimizely-Demo-App";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		3DF918D02EB6D6790054D94A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = PYH44NBFKK;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Christopher-Wright.Optimizely-Demo-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Optimizely-Demo-App.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Optimizely-Demo-App";
+			};
+			name = Debug;
+		};
+		3DF918D12EB6D6790054D94A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = PYH44NBFKK;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Christopher-Wright.Optimizely-Demo-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Optimizely-Demo-App.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Optimizely-Demo-App";
+			};
+			name = Release;
+		};
+		3DF918D32EB6D6790054D94A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = PYH44NBFKK;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Christopher-Wright.Optimizely-Demo-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Optimizely-Demo-App";
+			};
+			name = Debug;
+		};
+		3DF918D42EB6D6790054D94A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = PYH44NBFKK;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Christopher-Wright.Optimizely-Demo-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Optimizely-Demo-App";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3DF918A32EB6D6780054D94A /* Build configuration list for PBXProject "Optimizely-Demo-App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3DF918CA2EB6D6790054D94A /* Debug */,
+				3DF918CB2EB6D6790054D94A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3DF918CC2EB6D6790054D94A /* Build configuration list for PBXNativeTarget "Optimizely-Demo-App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3DF918CD2EB6D6790054D94A /* Debug */,
+				3DF918CE2EB6D6790054D94A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3DF918CF2EB6D6790054D94A /* Build configuration list for PBXNativeTarget "Optimizely-Demo-AppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3DF918D02EB6D6790054D94A /* Debug */,
+				3DF918D12EB6D6790054D94A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3DF918D22EB6D6790054D94A /* Build configuration list for PBXNativeTarget "Optimizely-Demo-AppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3DF918D32EB6D6790054D94A /* Debug */,
+				3DF918D42EB6D6790054D94A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		3DF918D62EB6D6790054D94A /* XCRemoteSwiftPackageReference "swift-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/optimizely/swift-sdk.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 4.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		3DF918D52EB6D6790054D94A /* Optimizely */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 3DF918D62EB6D6790054D94A /* XCRemoteSwiftPackageReference "swift-sdk" */;
+			productName = Optimizely;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 3DF918A02EB6D6780054D94A /* Project object */;
+}

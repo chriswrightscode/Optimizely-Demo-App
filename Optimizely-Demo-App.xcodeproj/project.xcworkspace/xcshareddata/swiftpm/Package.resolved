@@ -1,0 +1,15 @@
+{
+  "originHash" : "10993a26abd1b31ad3d30ab9d8029b3a07aea24dc20ba950fae71211d1264e03",
+  "pins" : [
+    {
+      "identity" : "swift-sdk",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/optimizely/swift-sdk.git",
+      "state" : {
+        "revision" : "5da09addf391c2e95b9052b9fe888c55994f8c41",
+        "version" : "4.1.0"
+      }
+    }
+  ],
+  "version" : 3
+}
