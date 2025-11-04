@@ -17,8 +17,7 @@ class OptimizelyManager: ObservableObject {
     
     @Published var isInitialized = false
     
-    private init() {
-    }
+    private init() {}
     
     func initialize() async {
         guard !isInitialized else { return }
@@ -67,30 +66,9 @@ class OptimizelyManager: ObservableObject {
     }
     
     private func extractUserTypes(from value: Any) -> [String]? {
-        // Case 1: OptimizelyJSON object
-        if let optimizelyJSON = value as? OptimizelyJSON {
-            if let jsonMap = try? optimizelyJSON.toMap(),
-               let userTypes = jsonMap["userTypes"] as? [String] {
-                return userTypes
-            }
-            // Fallback: parse as JSON string
-            if let jsonString = try? optimizelyJSON.toString(),
-               let jsonData = jsonString.data(using: .utf8),
-               let jsonDict = try? JSONDecoder().decode([String: [String]].self, from: jsonData),
-               let userTypes = jsonDict["userTypes"] {
-                return userTypes
-            }
-        }
-        
-        // Case 2: Dictionary
         if let jsonDict = value as? [String: Any],
            let userTypes = jsonDict["userTypes"] as? [String] {
             return userTypes
-        }
-        
-        // Case 3: Direct array (fallback)
-        if let directArray = value as? [String] {
-            return directArray
         }
         
         return nil
